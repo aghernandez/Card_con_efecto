@@ -12,6 +12,12 @@ html, body{
     background: #222;
 }
 
+.text-box{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
 .wrapper{
     display: flex;
     width: 70%;
@@ -70,5 +76,33 @@ html, body{
     transform: translateY(30px);
     transition: 0.5s all;
 }
+
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.card .info h1{
+    margin: 0;
+}
+
+.card .info p{
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.card .info .btn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
 
 
